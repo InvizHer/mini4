@@ -71,13 +71,115 @@
         <main class="main">
             <section class="filters container">
                 <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content">
+                    <button class="filters__button" data-target="#projects">
+                        Projects
+                    </button>
+
+                    <button class="filters__button" data-target="#skills">
+                        Skills
+                    </button>
+                </ul>
 
                 <div class="filters__sections">
                     <!--=============== PROJECTS ===============-->
-                    
+                    <div class="projects__content grid" data-content id="projects">
+                        <article class="projects__card">
+                            <img src="assets/img/project1.jpg" alt="project 1" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Backend</span>
+                                    <span class="projects__subtitle">Java, Springboot, Mockito</span>
+                                    <h3 class="projects__title">Dojo App</h3>
+                                    <a href="" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project2.jpg" alt="project 2" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Backend</span>
+                                    <span class="projects__subtitle">Java, Springboot, Mockito</span>
+                                    <h3 class="projects__title">Order Picker</h3>
+                                    <a href="" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
 
                     <!--=============== SKILLS ===============-->
-                    
+                    <div class="skills__content grid" data-content id="skills">
+                        <div class="skills__area">
+                            <h3 class="skills__title">Languages</h3>
+
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">Java</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">SQL</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">Javascript</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">Typescript</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">Frameworks</h3>
+
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">Springboot</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">NestJS</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
                 </div>
             </section>
         </main>
