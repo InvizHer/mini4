@@ -18,6 +18,8 @@
     <body>
         <!--=============== HEADER PROFILE ===============-->
         <header class="profile container">
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
             <div class="profile__container grid">
                 <div class="profile__data">
                     <div class="profile__border">
@@ -72,7 +74,7 @@
             <section class="filters container">
                 <!--=============== FILTERS TABS ===============-->
                 <ul class="filters__content">
-                    <button class="filters__button" data-target="#projects">
+                    <button class="filters__button filter-tab-active" data-target="#projects">
                         Projects
                     </button>
 
@@ -83,7 +85,7 @@
 
                 <div class="filters__sections">
                     <!--=============== PROJECTS ===============-->
-                    <div class="projects__content grid" data-content id="projects">
+                    <div class="projects__content grid filters__active" data-content id="projects">
                         <article class="projects__card">
                             <img src="assets/img/project1.jpg" alt="project 1" class="projects__img">
 
@@ -136,8 +138,9 @@
                                             <h3 class="skills__name">SQL</h3>
                                             <span class="skills__level">Basic</span>
                                         </div>
-                                    </div>
-
+                                    </div>                                    
+                                </div>
+                                <div class="skills__group">
                                     <div class="skills__data">
                                         <i class="ri-checkbox-circle-line"></i>
                                         <div>
@@ -168,7 +171,8 @@
                                             <span class="skills__level">Intermediate</span>
                                         </div>
                                     </div>
-
+                                </div>
+                                <div class="skills__group">
                                     <div class="skills__data">
                                         <i class="ri-checkbox-circle-line"></i>
                                         <div>
@@ -186,7 +190,9 @@
 
         <!--=============== FOOTER ===============-->
         <footer class="footer container">
-            
+            <span class="footer__copy">
+                &#169; Bedimcode. All rights reserved
+            </span>
         </footer>
 
         <!--=============== SCROLLREVEAL ===============-->
